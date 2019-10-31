@@ -14,6 +14,7 @@
 		C78F20BE236B44DC00ED2BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78F20BD236B44DC00ED2BB5 /* Assets.xcassets */; };
 		C78F20C1236B44DC00ED2BB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78F20BF236B44DC00ED2BB5 /* LaunchScreen.storyboard */; };
 		C78F20CC236B44DC00ED2BB5 /* iPioneerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F20CB236B44DC00ED2BB5 /* iPioneerTests.swift */; };
+		C78F20D7236B4BBD00ED2BB5 /* VCLovelace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F20D6236B4BBD00ED2BB5 /* VCLovelace.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		C78F20C7236B44DC00ED2BB5 /* iPioneerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPioneerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78F20CB236B44DC00ED2BB5 /* iPioneerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPioneerTests.swift; sourceTree = "<group>"; };
 		C78F20CD236B44DC00ED2BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78F20D6236B4BBD00ED2BB5 /* VCLovelace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLovelace.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				C78F20B6236B44DB00ED2BB5 /* SceneDelegate.swift */,
 				C78F20B8236B44DB00ED2BB5 /* ViewController.swift */,
 				C78F20BA236B44DB00ED2BB5 /* Main.storyboard */,
+				C78F20D6236B4BBD00ED2BB5 /* VCLovelace.swift */,
 				C78F20BD236B44DC00ED2BB5 /* Assets.xcassets */,
 				C78F20BF236B44DC00ED2BB5 /* LaunchScreen.storyboard */,
 				C78F20C2236B44DC00ED2BB5 /* Info.plist */,
@@ -203,6 +206,7 @@
 				C78F20B9236B44DB00ED2BB5 /* ViewController.swift in Sources */,
 				C78F20B5236B44DB00ED2BB5 /* AppDelegate.swift in Sources */,
 				C78F20B7236B44DB00ED2BB5 /* SceneDelegate.swift in Sources */,
+				C78F20D7236B4BBD00ED2BB5 /* VCLovelace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
