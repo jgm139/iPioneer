@@ -9,13 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //MARK: Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
     @IBAction func retornoDeSubview(segue: UIStoryboardSegue) {
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let controller = segue.destination as! SecundarioViewController
+        controller.fileName = segue.identifier!
     }
 }
 
